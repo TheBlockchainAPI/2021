@@ -11,8 +11,8 @@ If you callback url is not valid and returns anything other than a 200 response,
 If your bad_callbacks hits 6, our system will not longer send requests to your url.
 The same applies for when a payment has had 6 confirmations or more... we will stop sending at 6 confirms.
 
-For a full guide, check out https://aiocrypt.com/guide.
+For a full guide, check out https://blockchainapi.org/guide.
 
-To read our v1 documentation, go to https://aiocrypt.com/docs/v1.
+To read our v1 documentation, go to https://blockchainapi.org/docs/v1.
 
  
