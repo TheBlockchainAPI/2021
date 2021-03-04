@@ -5,7 +5,7 @@
   $my_address = "1LisLsZd3bx8U1NYzpNHqpo8Q6UCXKMJ4z";
 
   $my_callback_url = "http://example.com/callback?invoice_id=1234&secret=" . $secret;
-  $api_base = "https://aiocrypt.com/api/v1"; # Our v1 API endpoint
+  $api_base = "https://blockchainapi.org/api/v1"; # Our v1 API endpoint
 
   $curl = curl_init();
   curl_setopt_array($curl, array(
