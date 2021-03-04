@@ -7,7 +7,7 @@ Simply go to our API endpoint, enter your address you'd like the funds to go to 
 
 Any payments will then be forwarded to your Bitcoin address you entered first, once our system has made the correct checks and sent requests to your callback url.
 Our system will only count the callback url request as a success when your code returns a HTTP status code of 200.
-If you callback url is not valid and returns anything other than a 200 response, your callbacks amount will add up inside the bad_callbacks.
+If your callback url is not valid and returns anything other than a 200 response, your callbacks amount will add up inside the bad_callbacks.
 If your bad_callbacks hits 6, our system will not longer send requests to your url.
 The same applies for when a payment has had 6 confirmations or more... we will stop sending at 6 confirms.
 
