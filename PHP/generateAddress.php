@@ -10,7 +10,7 @@
   $curl = curl_init();
   curl_setopt_array($curl, array(
       CURLOPT_RETURNTRANSFER => 1,
-      CURLOPT_URL => $api_base . "?method=create&address=" . $my_address . "&callback=" . urlencode($my_callback_url)
+      CURLOPT_URL => $api_base . "?method=create&address=" . $my_address . "&callback=" . $my_callback_url
   ));
 
   $response = curl_exec($curl);
