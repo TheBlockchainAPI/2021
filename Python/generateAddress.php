@@ -2,7 +2,7 @@
 import requests 
   
 # Api-endpoint 
-URL = "https://blockchainapi.org/api/v1?method=create"
+URL = "https://blockchainapi.org/api/btc?method=create"
   
 # Parameters 
 myAddress = "1LisLsZd3bx8U1NYzpNHqpo8Q6UCXKMJ4z"
