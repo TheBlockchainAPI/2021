@@ -13,6 +13,6 @@ The same applies for when a payment has had 6 confirmations or more... we will s
 
 For a full guide, check out https://blockchainapi.org/guide.
 
-To read our v1 documentation, go to https://blockchainapi.org/docs/btc.
+To read our BTC documentation, go to https://blockchainapi.org/docs/btc.
 
  
