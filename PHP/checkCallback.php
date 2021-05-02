@@ -20,13 +20,12 @@
   if ($_GET["secret"] !== $secret) die();
 
   # Make sure we have all the POST variables we want to get
-  if(!$_POST['invoice_id'] || !$_POST['input_address'] || !$_POST['input_transaction_hash'] || !$_POST['transaction_hash'] || !$_POST['value'] || !$_POST['confirmations']) {
+  if(!$_POST['input_address'] || !$_POST['input_transaction_hash'] || !$_POST['transaction_hash'] || !$_POST['value'] || !$_POST['confirmations']) {
       die('One of more of the POST variables was not set in the request to our callback url.');
   }
 
   if ($_POST["destination_address"] !== $my_address) die();
 
-  $invoice_id = $_POST["invoice_id"];
   $input_address = $_POST["input_address"];
   $input_transaction_hash = $_POST["input_transaction_hash"];
   $transaction_hash = $_POST["transaction_hash"];
