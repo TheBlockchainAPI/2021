@@ -15,4 +15,6 @@ For a full guide, check out https://blockchainapi.org/guide.
 
 To read our BTC documentation, go to https://blockchainapi.org/docs/btc.
 
+To read our ETH documentation, go to https://blockchainapi.org/docs/eth.
+
  
